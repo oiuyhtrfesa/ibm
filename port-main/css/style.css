@@ -1,0 +1,160 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+Office:ital,wght@1,800&display=swap');
+
+*{
+    font-family: 'Ysabeau Office', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.bannerBgImage{
+    height: 100vh;
+    width: 100%;
+    background: url("/images/11.jpg") ;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+.bannerText{
+    text-align: left;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color:black;
+    text-shadow: 2px 2px #e18ce8;
+}
+.slide_show{
+    height:80%;
+    width:100%;
+}
+
+.Port{
+    
+    text-shadow: 2px 2px grey;
+}
+.bannerTitle{
+    font-size: 4rem;
+
+}
+.bannerDesc{
+    font-size: 2rem;
+
+}
+.card{
+    cursor: pointer;
+
+}
+.card:hover{
+    background-color: rgb(231, 230, 230);
+    border: 2px solid grey;
+}
+.BIcon{
+    width:100%;
+    text-align: center;
+    font-size: 40px;
+}
+.img-fluid:hover{
+    border: 2px solid yellowgreen;
+}
+.card-img-top{
+    height:50vh;
+}
+.about-container
+{
+    position:relative;
+    top:50px;
+}
+.center_items1{
+    -webkit-box-shadow: 0 10px 6px -6px #777;
+     -moz-box-shadow: 0 10px 6px -6px #777;
+          box-shadow: 0 10px 6px -6px #777;
+          text-align: center;
+}
+
+
+.skills_container{
+    row-gap: 0;
+}
+.skills_header{
+    display: flex;
+    align-items: center;
+    margin-bottom:var(--mb-2-5) ;
+    cursor: pointer;
+}
+
+.skills_icon,
+.skills_arrow{
+    font-size: 2rem;
+    color:var(--first-color);
+}
+.skills_icon{
+    margin-right: var(--mb-0-75);
+}
+
+
+.skills_subtitle{
+    font-size: var(--samll-font-size);
+    color:var(--text-color-light);
+    text-align: center;
+}
+
+.skills_list{
+    row-gap: 1.5rem;
+    padding-left:2.7rem ;
+}
+.skills_arrow{
+    margin-left: auto;
+    transition: .4s;
+}
+.skills_titles{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom:var(--mb-0-5);
+}
+
+.skills_name{
+    font-size:var(--normal-font-size);
+    font-weight: var(--font-medium);
+}
+.skills_bar,
+.skills_percentage{
+    height: 5px;
+    border-radius: .25rem;
+}
+.skills_bar{
+    background-color:pink;
+}
+.skills_percentage{
+    display: block;
+    background-color:violet;
+}
+.skills_html{
+    width:80%;
+
+}
+.skills_css{
+width: 70%;
+}
+.skills_js{
+    width:50%;
+}
+.skills_python{
+    width:90%;
+}
+.skills_java{
+    width: 80%;
+}
+.skills_need{
+    text-align: center;
+}
+.mainy{
+    background-color: grey;
+    width: 50%;
+    height: 50%;
+    
+}
